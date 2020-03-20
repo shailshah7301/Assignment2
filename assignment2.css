@@ -4,14 +4,14 @@
 }
 header
 {
-  height: 50px;
-  box-shadow: 10px;
+  height: 48px;
+  box-shadow: 9px;
   color:rgb(167, 183, 207);
   background-color:rgb(79, 109, 156);
   text-align: center;
-  text-shadow: 20px;
-  padding-top: 15px;
-  font-size: 30px;
+  text-shadow: 18px;
+  padding-top: 14px;
+  font-size: 29px;
 }
 h1{
 	color:rgb(167, 183, 207);
@@ -24,27 +24,29 @@ p {
   font-size: 21px;
   color:black;
 }
-p.p1:hover, p.p1:active ,p.p2:hover,p.p2:active ,p.p3:hover,p.p3:active {color:cyan;}
+p.a:hover, p.a:active  {color:cyan;}
+p.b:hover,p.b:active    {color: blue;} 
+p.c:hover,p.c:active{color:green;}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 500px;
+  width: 499px;
   float: right;
   margin-top: -180px;
 }
 
 td, th {
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
   text-align: left;
-  padding: 8px;
+  padding: 7px;
 }
 
 tr:nth-child(even) {
   background-color: #ffffff;
 }
 footer{
-  height: 30px;
-  box-shadow: 10px;
+  height: 29px;
+  box-shadow: 11px;
   color:cyan;
   background-rgb(167, 183, 207);
   text-align: center;
